@@ -1,0 +1,11 @@
+import os
+from flask import Flask,render_template,redirect,url_for,request,send_from_dire$
+import json
+
+app = Flask(__name__)
+
+@app.route("/msg", methods=["POST","GET"])
+def uploq	ad():
+	
+
+@app.route('/pesan/',methods = ['POST','GET'])
